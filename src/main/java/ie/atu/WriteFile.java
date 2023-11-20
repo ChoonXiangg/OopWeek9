@@ -10,10 +10,6 @@ public class WriteFile {
             addText.write("Hello world");
             addText.close();
             System.out.println("Content successfully written to the file");
-            PrintWriter addText1=new PrintWriter(fileName);
-            addText1.write("I am Rick");
-            addText.close();
-            System.out.println("Content successfully written to the file");
         }
         catch(IOException e){
             System.out.println("An error occurred while writing the file.");
